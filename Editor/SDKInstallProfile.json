@@ -1,0 +1,86 @@
+{
+  "SchemaVersion": 1,
+  "ProfileId": "gameanalytics.unity",
+  "ProfileVersion": "7.10.3",
+  "Vendor": "GameAnalytics",
+  "DisplayName": "GameAnalytics Unity SDK",
+  "BridgePackageId": "com.actionfit.sdk.gameanalytics",
+  "MinimumUnityVersion": "2018.1",
+  "MaximumUnityVersion": "",
+  "LicenseUrl": "https://github.com/GameAnalytics/GA-SDK-UNITY/blob/7.10.3/LICENSE.md",
+  "SupportUrl": "https://docs.gameanalytics.com/event-tracking-and-integrations/sdks-and-collection-api/game-engine-sdks/unity/",
+  "SupportedPlatforms": [
+    "Android",
+    "iOS"
+  ],
+  "AllowedDomains": [
+    "package.openupm.com"
+  ],
+  "Sources": [
+    {
+      "Id": "gameanalytics-openupm",
+      "Kind": "registry",
+      "Url": "https://package.openupm.com",
+      "ImmutableVersion": "7.10.3",
+      "ImmutableRevision": "",
+      "PackageId": "com.gameanalytics.sdk",
+      "PackageVersion": "",
+      "Sha256": "",
+      "CacheRelativePath": ""
+    }
+  ],
+  "Modules": [
+    {
+      "Id": "core",
+      "DisplayName": "GameAnalytics Unity SDK",
+      "Required": true,
+      "DefaultSelected": true,
+      "Requires": []
+    }
+  ],
+  "Dependencies": [
+    {
+      "PackageId": "com.gameanalytics.sdk",
+      "SourceId": "gameanalytics-openupm",
+      "ModuleId": "core",
+      "Order": 0
+    }
+  ],
+  "ScopedRegistries": [
+    {
+      "Name": "package.openupm.com",
+      "Url": "https://package.openupm.com",
+      "ModuleId": "core",
+      "Scopes": [
+        "com.gameanalytics",
+        "com.google.external-dependency-manager"
+      ]
+    }
+  ],
+  "DetectionRules": [
+    {
+      "Id": "matching-gameanalytics-dependency",
+      "Kind": "dependency",
+      "Value": "com.gameanalytics.sdk",
+      "ExpectedValue": "7.10.3",
+      "Classification": "adoptable",
+      "Message": "Matching com.gameanalytics.sdk@7.10.3 is already installed and can be preserved."
+    },
+    {
+      "Id": "existing-openupm-registry",
+      "Kind": "registry",
+      "Value": "https://package.openupm.com",
+      "ExpectedValue": "",
+      "Classification": "adoptable",
+      "Message": "The existing OpenUPM registry can be reused while preserving unrelated scopes."
+    },
+    {
+      "Id": "legacy-gameanalytics-assets",
+      "Kind": "assetPath",
+      "Value": "Assets/GameAnalytics",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "A legacy Assets/GameAnalytics installation exists and must be reviewed before registry installation."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "com.actionfit.sdk.gameanalytics",
+  "version": "1.0.1",
+  "displayName": "ActionFit GameAnalytics SDK Bridge",
+  "description": "Source-only public install profile for the official GameAnalytics Unity SDK package.",
+  "unity": "6000.2",
+  "author": {
+    "name": "ActionFit"
+  },
+  "dependencies": {
+    "com.actionfit.custompackagemanager": "1.1.95"
+  }
+}
