@@ -8,9 +8,9 @@ This file is shipped inside the UPM package so an AI assistant in a consuming Un
 - Display name: ActionFit GameAnalytics SDK Bridge
 - Repository: `https://github.com/ActionFit-Editor/SDK_GameAnalytics.git`
 - Repository visibility: Public
-- Current package version at generation time: `1.0.5`
+- Current package version at generation time: `1.0.6`
 - Unity version: `6000.2`
-- Custom Package Manager dependency: `1.1.96`
+- Custom Package Manager dependency: `1.1.106`
 
 ## Purpose
 

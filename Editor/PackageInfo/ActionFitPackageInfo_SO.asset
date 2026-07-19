@@ -21,12 +21,12 @@ MonoBehaviour:
   _description: "\uACF5\uC2DD OpenUPM source\uC758 GameAnalytics Unity SDK\uB97C
     \uC815\uD655\uD55C \uBC84\uC804\uC73C\uB85C \uC124\uCE58\uD558\uB294 public source-only
     \uBE0C\uB9AC\uC9C0 \uD328\uD0A4\uC9C0\uC785\uB2C8\uB2E4."
-  _releaseNote: "- package.json\uC758 ActionFit dependency\uB97C \uCD5C\uC2E0 \uC900\uBE44
-    \uBC84\uC804\uC73C\uB85C \uAC31\uC2E0\uD588\uC2B5\uB2C8\uB2E4: com.actionfit.custompackagemanager
-    1.1.103 -> 1.1.106.\n- dependency \uBCC0\uACBD\uACFC \uD568\uAED8 package version,
-    README Git UPM tag, AI_GUIDE.md version\uC744 \uC815\uB82C\uD574 publish \uC804
-    contract \uAC80\uC99D\uC774 \uAC00\uB2A5\uD558\uB3C4\uB85D \uD588\uC2B5\uB2C8\uB2E4.\n-
-    \uAE30\uC874 runtime/editor API \uAD6C\uD604\uC740 \uBCC0\uACBD\uD558\uC9C0 \uC54A\uC558\uC73C\uBA70
-    \uC2E4\uC81C publish\uB294 \uBCC4\uB3C4 \uC2B9\uC778\uC744 \uAC70\uCCD0 Custom
-    Package Manager\uC5D0\uC11C \uC218\uD589\uD569\uB2C8\uB2E4."
+  _releaseNote: "- AI_GUIDE.md\uC758 Custom Package Manager dependency\uB97C package.json\uACFC
+    \uB3D9\uC77C\uD55C com.actionfit.custompackagemanager 1.1.106\uC73C\uB85C \uC815\uC815\uD588\uC2B5\uB2C8\uB2E4.\n-
+    README\uC758 Git UPM \uC124\uCE58 tag\uB97C 1.0.6\uC73C\uB85C \uAC31\uC2E0\uD558\uACE0 \uD2B9\uC815
+    \uACFC\uAC70 tag \uAC8C\uC2DC \uC548\uB0B4\uB97C \uC81C\uAC70\uD574 \uC2E4\uC81C \uBC30\uD3EC \uAE30\uC900\uC744 \uBD84\uBA85\uD788
+    \uD588\uC2B5\uB2C8\uB2E4.\n- GameAnalytics SDK 7.10.3 profile, runtime/editor API, \uD504\uB85C\uC81D\uD2B8
+    \uC124\uC815\uACFC \uCD08\uAE30\uD654 \uD750\uB984\uC740 \uBCC0\uACBD\uD558\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4.\n- \uC2E4\uC81C
+    publish, tag \uC0DD\uC131\uACFC catalog \uB4F1\uB85D\uC740 \uBCC4\uB3C4 \uC815\uD655\uD55C \uC2B9\uC778 \uD6C4 Custom Package
+    Manager\uC5D0\uC11C \uC218\uD589\uD569\uB2C8\uB2E4."
   _dependenciesOverride: 
